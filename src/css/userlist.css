@@ -1,0 +1,88 @@
+/* Overall styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Header styling */
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e1f5fe;
+    transition: 0.3s;
+}
+
+/* Button styling */
+input[type='button'] {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+input.delete:hover {
+    background-color: #d32f2f;
+}
+
+input.edit {
+    background-color: #2196F3;
+    color: white;
+    margin-left: 8px;
+}
+
+input.edit:hover {
+    background-color: #1976D2;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+    
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    input[type='button'] {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}

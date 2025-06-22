@@ -1,0 +1,13 @@
+/* home.css */
+
+#home {
+    padding: 20px; 
+    border: 2px solid #87ceeb; 
+    border-radius: 8px; 
+    text-align: center;
+}
+
+#home img {
+    width: 98%;
+    height: 80vh;
+}
